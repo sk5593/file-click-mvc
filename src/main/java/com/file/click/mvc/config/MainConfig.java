@@ -1,6 +1,7 @@
 package com.file.click.mvc.config;
 
 public class MainConfig {
+    //私钥
     public static final String PRIVATE_KEY= "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL8/ek9MNYSO9b0b\n"+
             "X0NPofAiBbqLzGGghFx4OOKP7NeuiP7FrHGcqLPbTo4YjSNcHBI+wU5zllmtZSrp\n"+
             "3QaMTIa/nc7QzMycSOsP6SqnErijXkkY5SVIGF4YTMZqhtS2SsqillbFWQcdDyw0\n"+
@@ -15,8 +16,8 @@ public class MainConfig {
             "zD3aGJJYvFV3CylVAC9W3subpZhGKiBZhdlGq666W4k4kHDvsilm8wJBAIWnQUzs\n"+
             "jM3NiZ3E33jRFhxblKMd6wOg2kpjuDjLv4Op2UaTNTK5SvKjpHYBnd6lo6vC+PQ/\n"+
             "lSawzlTQ02pooAA=";
+    //serve请求地址
     public static String URL = "http://127.0.0.1:9999";
     public static final String ALGORITHM = "AES";
-    public static final int KEY_SIZE = 128;
     public static final int CACHE_SIZE = 1024;
 }

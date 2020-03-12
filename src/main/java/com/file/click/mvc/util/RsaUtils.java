@@ -10,6 +10,9 @@ import java.security.interfaces.RSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
+/**
+ * 非对称加密RSA工具类
+ */
 public class RsaUtils {
     public static String encrypt( String str, String publicKey ) throws Exception{
         //base64编码的公钥
